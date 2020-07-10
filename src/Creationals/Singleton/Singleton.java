@@ -11,7 +11,9 @@ package Creationals.Singleton;
  */
 public class Singleton {
 
-    private static Singleton singleton;
+    public static Singleton singleton;
+    
+    int yas;
 
     private Singleton() {
         System.out.println("Ben olustum");
